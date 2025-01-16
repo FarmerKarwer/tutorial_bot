@@ -1,3 +1,392 @@
 {
-	
+  "/start": {
+    "inline_keyboard": [
+      [
+        {
+          "text": "🆘Не знаю, о чем говорить🆘",
+          "callback_data": "menu_1"
+        }
+      ],
+      [
+        {
+          "text": "Подборки тем для общения",
+          "callback_data": "menu_2"
+        }
+      ],
+      [
+        {
+          "text": "Челленджи",
+          "callback_data": "menu_3"
+        }
+      ],
+      [
+        {
+          "text": "Статистика",
+          "callback_data": "menu_4"
+        }
+      ],
+      [
+        {
+          "text": "Настройки",
+          "callback_data": "menu_5"
+        }
+      ]
+    ]
+  },
+  "menu_1": {
+    "inline_keyboard": [
+      [
+        {
+          "text": "🔄Перегенерировать",
+          "callback_data": "menu_1"
+        }
+      ],
+      [
+        {
+          "text": "В главное меню",
+          "callback_data": "/start"
+        }
+      ]
+    ]
+  },
+  "menu_2":{
+    "inline_keyboard": [
+      [
+        {
+          "text": "1",
+          "callback_data": "topic_1"
+        },
+        {
+          "text": "2",
+          "callback_data": "topic_2"
+        },
+        {
+          "text": "3",
+          "callback_data": "topic_3"
+        },
+        {
+          "text": "4",
+          "callback_data": "topic_4"
+        },
+        {
+          "text": "5",
+          "callback_data": "topic_5"
+        }
+      ],
+      [
+        {
+          "text": "6",
+          "callback_data": "topic_6"
+        },
+        {
+          "text": "7",
+          "callback_data": "topic_7"
+        },
+        {
+          "text": "8",
+          "callback_data": "topic_8"
+        },
+        {
+          "text": "9",
+          "callback_data": "topic_9"
+        },
+        {
+          "text": "10",
+          "callback_data": "topic_10"
+        }
+      ],
+      [
+        {
+          "text": "В главное меню",
+          "callback_data": "/start"
+        }
+      ]
+    ]
+  },
+  "menu_2_1": {
+    "inline_keyboard": [
+      [
+        {
+          "text": "🔄Перегенерировать",
+          "callback_data": "menu_2_1"
+        }
+      ],
+      [
+        {
+          "text": "Назад",
+          "callback_data": "menu_2"
+        }
+      ],
+      [
+        {
+          "text": "В главное меню",
+          "callback_data": "/start"
+        }
+      ]
+    ]
+  },
+  "menu_3": {
+    "inline_keyboard": [
+      [
+        {
+          "text": "😊Новичок",
+          "callback_data": "menu_3_1_novice"
+        }
+      ],
+      [
+        {
+          "text": "🚶‍♂️Начинающий",
+          "callback_data": "menu_3_1_beginner"
+        }
+      ],
+      [
+        {
+          "text": "🏃‍♀️Средний",
+          "callback_data": "menu_3_1_mid"
+        }
+      ],
+      [
+        {
+          "text": "💪Продвинутый",
+          "callback_data": "menu_3_1_uppermid"
+        }
+      ],
+      [
+        {
+          "text": "🏆Ветеран",
+          "callback_data": "menu_3_1_adv"
+        }
+      ],
+      [
+        {
+          "text": "🤡Кринж-грандмастер🤡",
+          "callback_data": "menu_3_1_cringe"
+        }
+      ],
+      [
+        {
+          "text": "В главное меню",
+          "callback_data": "/start"
+        }
+      ]
+    ]
+  },
+  "menu_3_1": {
+    "inline_keyboard": [
+      [
+        {
+          "text": "✅Готово",
+          "callback_data": "menu_3_1_1"
+        }
+      ],
+      [
+        {
+          "text": "Назад",
+          "callback_data": "menu_3"
+        }
+      ],
+      [
+        {
+          "text": "В главное меню",
+          "callback_data": "/start"
+        }
+      ]
+    ]
+  },
+  "menu_3_1_1": {
+    "inline_keyboard": [
+      [
+        {
+          "text": "✅Да",
+          "callback_data": "menu_3_1_2"
+        },
+        {
+          "text": "❌Нет",
+          "callback_data": "menu_3_1"
+        }
+      ]
+    ]
+  },
+  "menu_3_1_2": {
+    "inline_keyboard": [
+      [
+        {
+          "text": "Рад стараться😊",
+          "callback_data": "menu_3_1_new_lev"
+        }
+      ]
+    ]
+  },
+  "menu_3_1_new_lev": {
+    "inline_keyboard": [
+      [
+        {
+          "text": "Ура, здорово!🔥",
+          "callback_data": "/start"
+        }
+      ]
+    ]
+  },
+  "menu_4": {
+    "inline_keyboard": [
+      [
+        {
+          "text": "Выбрать челлендж",
+          "callback_data": "menu_3"
+        }
+      ],
+      [
+        {
+          "text": "В главное меню",
+          "callback_data": "/start"
+        }
+      ]
+    ]
+  },
+  "menu_5": {
+    "inline_keyboard": [
+      [
+        {
+          "text": "🔔Уведомления",
+          "callback_data": "menu_5_1"
+        }
+      ],
+      [
+        {
+          "text": "🌐Язык",
+          "callback_data": "menu_5_2"
+        }
+      ],
+      [
+        {
+          "text": "⭐Оставить отзыв",
+          "callback_data": "menu_5_3"
+        }
+      ],
+      [
+        {
+          "text": "В главное меню",
+          "callback_data": "/start"
+        }
+      ]
+    ]
+  },
+  "menu_5_1": {
+    "inline_keyboard": [
+      [
+        {
+          "text": "Отключить",
+          "callback_data": "menu_5_1_saved"
+        }
+      ],
+      [
+        {
+          "text": "Назад",
+          "callback_data": "menu_5"
+        }
+      ],
+      [
+        {
+          "text": "В главное меню",
+          "callback_data": "/start"
+        }
+      ]
+    ]
+  },
+  "menu_5_1_saved": {
+    "inline_keyboard": [
+      [
+        {
+          "text": "В главное меню",
+          "callback_data": "/start"
+        }
+      ]
+    ]
+  },
+  "menu_5_2": {
+    "inline_keyboard": [
+      [
+        {
+          "text": "🇷🇺Русский",
+          "callback_data": "menu_5_2_saved_ru"
+        }
+      ],
+      [
+        {
+          "text": "🇬🇧English",
+          "callback_data": "menu_5_2_saved_eng"
+        }
+      ],
+      [
+        {
+          "text": "Назад",
+          "callback_data": "menu_5"
+        }
+      ],
+      [
+        {
+          "text": "В главное меню",
+          "callback_data": "/start"
+        }
+      ]
+    ]
+  },
+  "menu_5_2_saved": {
+    "inline_keyboard": [
+      [
+        {
+          "text": "В главное меню",
+          "callback_data": "/start"
+        }
+      ]
+    ]
+  },
+  "menu_5_3": {
+    "inline_keyboard": [
+      [
+        {
+          "text": "Назад",
+          "callback_data": "menu_5"
+        }
+      ],
+      [
+        {
+          "text": "В главное меню",
+          "callback_data": "/start"
+        }
+      ]
+    ]
+  },
+  "menu_5_3_1": {
+    "inline_keyboard": [
+      [
+        {
+          "text": "Отправить",
+          "callback_data": "menu_5_3_sent"
+        }
+      ],
+      [
+        {
+          "text": "Изменить",
+          "callback_data": "menu_5_3"
+        }
+      ],
+      [
+        {
+          "text": "В главное меню",
+          "callback_data": "/start"
+        }
+      ]
+    ]
+  },
+  "menu_5_3_sent": {
+    "inline_keyboard": [
+      [
+        {
+          "text": "В главное меню",
+          "callback_data": "/start"
+        }
+      ]
+    ]
+  }
 }
