@@ -1,0 +1,26 @@
+{
+	"/start": "Hello! 👋\n\nI am your assistant for improving social skills. Choose something from the menu below :)",
+	"menu_1": "💡Try starting with this question:\n\n\"_[icebreaker]_\"",
+	"menu_2": "Choose the appropriate situation:\n\n1. At work\n2. Meeting a girl/guy\n3. At a party\n4. At school or training\n5. In a queue\n6. In a hobby club\n7. At the gym\n8. On public transport\n9. On a walk\n10. In a café",
+	"menu_2_1": "💡Here's an idea for a conversation:\n\n\"_[icebreaker]_\"",
+	"menu_3": "Choose a difficulty level",
+	"menu_3_1": "Level: [level]\n\n💬 Challenge:\n\n\"_[challenge]_\"\n\nReady to complete it? 🚀 Click \"Done!\" after completing it to receive your reward! 🏅",
+	"menu_3_1_closed": "Reach level [level] to unlock challenges of [difficulty] difficulty",
+	"menu_3_1_no_challenges": "🌟You have completed all challenges at this difficulty level! Wait for new challenges or replay the old ones",
+	"menu_3_1_1": "Are you sure you completed the challenge? 😊",
+	"menu_3_1_2": "Great job! 🎉\nYou successfully completed the challenge and earned +[xp] XP! 💪\n\nEach completed task makes you more confident and brings you closer to the next level. 🚀\nKeep it up!",
+	"menu_3_1_new_lev": {
+		"main_message": "🎉 Congratulations! You have reached a new level! 🚀\n🌟 New level ([level_num]): [level_desc]\nYou're doing great and becoming a true master of communication. 👏\n\n",
+		"bonus_message": "🔥 Bonus: You now have access to new challenges and conversation topics!\nShow what you're capable of and keep moving forward! 💪"
+	},
+	"menu_4": "📊 Your statistics\n— Level [level_num]: [level_desc] 🌟\n — Experience: [xp] XP (to the next level: [xp_diff] XP) 🎯\n — Completed challenges: [challenge_cnt] ✅",
+	"menu_5": "⚙️ Settings",
+	"menu_5_1": "🔔 Notifications\n\n— Motivational messages [status]",
+	"menu_5_1_saved": "Notifications successfully [status]",
+	"menu_5_2": "🌐 Select a language",
+	"menu_5_2_closed": "This language is already selected in your settings",
+	"menu_5_2_saved": "The language was successfully updated",
+	"menu_5_3": "Thank you for wanting to share your opinion!\n\nWrite what you liked or what you think could be improved. We read every message carefully!",
+	"menu_5_3_1": "Do you want to send this feedback?\n\n[review]\n\nIf everything is correct, click “Send”. If you want to edit it, click “Edit”.",
+	"menu_5_3_sent": "Thank you!\n\nFeedback successfully sent."
+}

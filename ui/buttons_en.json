@@ -3,31 +3,31 @@
     "inline_keyboard": [
       [
         {
-          "text": "🆘Не знаю, о чем говорить🆘",
+          "text": "🆘I don't know what to talk about🆘",
           "callback_data": "menu_1"
         }
       ],
       [
         {
-          "text": "Подборки тем для общения",
+          "text": "Collections of conversation topics",
           "callback_data": "menu_2"
         }
       ],
       [
         {
-          "text": "Челленджи",
+          "text": "Challenges",
           "callback_data": "menu_3"
         }
       ],
       [
         {
-          "text": "Статистика",
+          "text": "Statistics",
           "callback_data": "menu_4"
         }
       ],
       [
         {
-          "text": "Настройки",
+          "text": "Settings",
           "callback_data": "menu_5"
         }
       ]
@@ -37,19 +37,19 @@
     "inline_keyboard": [
       [
         {
-          "text": "🔄Перегенерировать",
+          "text": "🔄Regenerate",
           "callback_data": "menu_1"
         }
       ],
       [
         {
-          "text": "В главное меню",
+          "text": "To main menu",
           "callback_data": "/start"
         }
       ]
     ]
   },
-  "menu_2":{
+  "menu_2": {
     "inline_keyboard": [
       [
         {
@@ -97,7 +97,7 @@
       ],
       [
         {
-          "text": "В главное меню",
+          "text": "To main menu",
           "callback_data": "/start"
         }
       ]
@@ -107,19 +107,19 @@
     "inline_keyboard": [
       [
         {
-          "text": "🔄Перегенерировать",
+          "text": "🔄Regenerate",
           "callback_data": "menu_2_1"
         }
       ],
       [
         {
-          "text": "Назад",
+          "text": "Back",
           "callback_data": "menu_2"
         }
       ],
       [
         {
-          "text": "В главное меню",
+          "text": "To main menu",
           "callback_data": "/start"
         }
       ]
@@ -129,43 +129,43 @@
     "inline_keyboard": [
       [
         {
-          "text": "😊Новичок",
+          "text": "😊Novice",
           "callback_data": "menu_3_1_novice"
         }
       ],
       [
         {
-          "text": "🚶‍♂️Начинающий",
+          "text": "🚶‍♂️Beginner",
           "callback_data": "menu_3_1_beginner"
         }
       ],
       [
         {
-          "text": "🏃‍♀️Средний",
+          "text": "🏃‍♀️Intermediate",
           "callback_data": "menu_3_1_mid"
         }
       ],
       [
         {
-          "text": "💪Продвинутый",
+          "text": "💪Advanced",
           "callback_data": "menu_3_1_uppermid"
         }
       ],
       [
         {
-          "text": "🏆Ветеран",
+          "text": "🏆Veteran",
           "callback_data": "menu_3_1_adv"
         }
       ],
       [
         {
-          "text": "🤡Кринж-грандмастер🤡",
+          "text": "🤡Cringe Grandmaster🤡",
           "callback_data": "menu_3_1_cringe"
         }
       ],
       [
         {
-          "text": "В главное меню",
+          "text": "To main menu",
           "callback_data": "/start"
         }
       ]
@@ -175,19 +175,19 @@
     "inline_keyboard": [
       [
         {
-          "text": "✅Готово",
+          "text": "✅Done",
           "callback_data": "menu_3_1_1"
         }
       ],
       [
         {
-          "text": "Назад",
+          "text": "Back",
           "callback_data": "menu_3"
         }
       ],
       [
         {
-          "text": "В главное меню",
+          "text": "To main menu",
           "callback_data": "/start"
         }
       ]
@@ -197,13 +197,13 @@
     "inline_keyboard": [
       [
         {
-          "text": "Выбрать другой уровень сложности",
+          "text": "Choose another difficulty level",
           "callback_data": "menu_3"
         }
       ],
       [
         {
-          "text": "Случайный челлендж",
+          "text": "Random challenge",
           "callback_data": "menu_3_1_random"
         }
       ]
@@ -213,7 +213,7 @@
     "inline_keyboard": [
       [
         {
-          "text": "Вернуться к выбору сложности",
+          "text": "Return to difficulty selection",
           "callback_data": "menu_3"
         }
       ]
@@ -223,11 +223,11 @@
     "inline_keyboard": [
       [
         {
-          "text": "✅Да",
+          "text": "✅Yes",
           "callback_data": "menu_3_1_2"
         },
         {
-          "text": "❌Нет",
+          "text": "❌No",
           "callback_data": "menu_3_1"
         }
       ]
@@ -237,7 +237,7 @@
     "inline_keyboard": [
       [
         {
-          "text": "Рад стараться😊",
+          "text": "Happy to try!😊",
           "callback_data": "menu_3_1_new_lev"
         }
       ]
@@ -247,7 +247,7 @@
     "inline_keyboard": [
       [
         {
-          "text": "Ура, здорово!🔥",
+          "text": "Hooray, great!🔥",
           "callback_data": "/start"
         }
       ]
@@ -257,13 +257,13 @@
     "inline_keyboard": [
       [
         {
-          "text": "Выбрать челлендж",
+          "text": "Choose challenge",
           "callback_data": "menu_3"
         }
       ],
       [
         {
-          "text": "В главное меню",
+          "text": "To main menu",
           "callback_data": "/start"
         }
       ]
@@ -273,25 +273,25 @@
     "inline_keyboard": [
       [
         {
-          "text": "🔔Уведомления",
+          "text": "🔔Notifications",
           "callback_data": "menu_5_1"
         }
       ],
       [
         {
-          "text": "🌐Язык",
+          "text": "🌐Language",
           "callback_data": "menu_5_2"
         }
       ],
       [
         {
-          "text": "⭐Оставить отзыв",
+          "text": "⭐Leave feedback",
           "callback_data": "menu_5_3"
         }
       ],
       [
         {
-          "text": "В главное меню",
+          "text": "To main menu",
           "callback_data": "/start"
         }
       ]
@@ -301,19 +301,19 @@
     "inline_keyboard": [
       [
         {
-          "text": "Отключить",
+          "text": "Disable",
           "callback_data": "menu_5_1_saved"
         }
       ],
       [
         {
-          "text": "Назад",
+          "text": "Back",
           "callback_data": "menu_5"
         }
       ],
       [
         {
-          "text": "В главное меню",
+          "text": "To main menu",
           "callback_data": "/start"
         }
       ]
@@ -323,7 +323,7 @@
     "inline_keyboard": [
       [
         {
-          "text": "В главное меню",
+          "text": "To main menu",
           "callback_data": "/start"
         }
       ]
@@ -333,7 +333,7 @@
     "inline_keyboard": [
       [
         {
-          "text": "🇷🇺Русский",
+          "text": "🇷🇺Russian",
           "callback_data": "menu_5_2_saved_ru"
         }
       ],
@@ -345,13 +345,13 @@
       ],
       [
         {
-          "text": "Назад",
+          "text": "Back",
           "callback_data": "menu_5"
         }
       ],
       [
         {
-          "text": "В главное меню",
+          "text": "To main menu",
           "callback_data": "/start"
         }
       ]
@@ -361,7 +361,7 @@
     "inline_keyboard": [
       [
         {
-          "text": "Вернуться к языковым настройкам",
+          "text": "Return to language settings",
           "callback_data": "menu_5_2"
         }
       ]
@@ -371,7 +371,7 @@
     "inline_keyboard": [
       [
         {
-          "text": "В главное меню",
+          "text": "To main menu",
           "callback_data": "/start"
         }
       ]
@@ -381,13 +381,13 @@
     "inline_keyboard": [
       [
         {
-          "text": "Назад",
+          "text": "Back",
           "callback_data": "menu_5"
         }
       ],
       [
         {
-          "text": "В главное меню",
+          "text": "To main menu",
           "callback_data": "/start"
         }
       ]
@@ -397,19 +397,19 @@
     "inline_keyboard": [
       [
         {
-          "text": "Отправить",
+          "text": "Send",
           "callback_data": "menu_5_3_sent"
         }
       ],
       [
         {
-          "text": "Изменить",
+          "text": "Edit",
           "callback_data": "menu_5_3"
         }
       ],
       [
         {
-          "text": "В главное меню",
+          "text": "To main menu",
           "callback_data": "/start"
         }
       ]
@@ -419,7 +419,7 @@
     "inline_keyboard": [
       [
         {
-          "text": "В главное меню",
+          "text": "To main menu",
           "callback_data": "/start"
         }
       ]
