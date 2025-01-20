@@ -767,3 +767,14 @@
 2025-01-18 18:09:59,999 - INFO - Received update ID: 762456682
 2025-01-18 18:10:45,067 - INFO - Closing channel for endpoint ydb.serverless.yandexcloud.net:2135
 2025-01-18 18:11:06,494 - INFO - Bot has been stopped by user.
+2025-01-19 23:38:40,525 - INFO - Long polling has started...
+2025-01-19 23:38:41,086 - INFO - Closing channel for endpoint ydb.serverless.yandexcloud.net:2135
+2025-01-19 23:38:44,291 - INFO - Received update ID: 762456683
+2025-01-19 23:38:48,482 - INFO - Received update ID: 762456684
+2025-01-19 23:39:21,872 - INFO - Bot has been stopped by user.
+2025-01-20 10:48:38,284 - INFO - Long polling has started...
+2025-01-20 10:48:38,440 - INFO - Closing channel for endpoint ydb.serverless.yandexcloud.net:2135
+2025-01-20 10:48:38,827 - INFO - Received update ID: 762456687
+2025-01-20 10:48:43,281 - INFO - Received update ID: 762456688
+2025-01-20 10:48:46,611 - INFO - Received update ID: 762456689
+2025-01-20 10:48:49,676 - INFO - Bot has been stopped by user.

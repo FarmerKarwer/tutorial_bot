@@ -58,8 +58,8 @@ def edit_message_reply_markup(chat_id, message_id, reply_markup):
 def get_updates(offset=None, timeout=None):
 	url = URL+"getUpdates"
 	params = {"offset": offset, "timeout": timeout}
-	update_array = requests.get(url, params=params)
-	return json.loads(update_array.content)
+	update = requests.get(url, params=params)
+	return update.json()
 
 if __name__ == "__main__":
     print(get_updates())
