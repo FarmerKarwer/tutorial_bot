@@ -1,5 +1,0 @@
-2025-01-20 10:51:45,421 - INFO - Long polling has started...
-2025-01-20 10:51:45,814 - INFO - Closing channel for endpoint ydb.serverless.yandexcloud.net:2135
-2025-01-20 10:51:46,936 - INFO - Received update ID: 762456690
-2025-01-20 10:51:50,908 - INFO - Received update ID: 762456691
-2025-01-20 10:51:52,949 - INFO - Bot has been stopped by user.
