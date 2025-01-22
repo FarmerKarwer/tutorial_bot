@@ -93,7 +93,9 @@ def handle_text_message(message):
 	user_id = message['message']['from']['id']
 	unix_timestamp = message['message']['date']
 	timestamp = unix_to_timestamp(unix_timestamp)
-	previous_screen = json.loads(cache.get(user_id)['data'])['callback_data']
+	cache_data = cache.get(user_id)
+	if cache_data:
+		previous_screen = json.loads(cache_data['data'])['callback_data']
 	global replies
 	replies = get_replies_for_user_language(user_id)
 
@@ -105,12 +107,16 @@ def handle_text_message(message):
 		no_user = len(user)==0
 		if no_user:
 			if "last_name" in message['message']['from'].keys():
-				last_name = f"'{message['message']['from']['last_name']}'"
+				last_name = f"{message['message']['from']['last_name']}"
 			else:
 				last_name = "NULL"
+			if "username" in message['message']['from'].keys():
+				username = f"{message['message']['from']['username']}"
+			else:
+				username = "NULL"
 			user_data = {
 				"id":user_id,
-				"username":message['message']['from']['username'],
+				"username":username,
 				"first_name":message['message']['from']['first_name'],
 				"language":message['message']['from']['language_code'],
 				"last_name":last_name,
